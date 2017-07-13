@@ -6,12 +6,15 @@
 
 #clouds {
   display: block;
-}
-
-.clouds-animation {
-  -webkit-animation: verticalScroll 3s  ease-in;
-  -moz-animation: verticalScroll 3s  ease-in;
-  animation: verticalScroll 3s  ease-in;
+  transition: all 0.5s ease-in;
+  opacity: 1;
+  &.clouds-animation {
+    -webkit-animation: verticalScroll 3s  ease-in;
+    -moz-animation: verticalScroll 3s  ease-in;
+    animation: verticalScroll 3s  ease-in;
+    opacity: 0;
+    transition: all 1s ease-in 1.5s;
+  }
 }
 
 .rocket-animation {
