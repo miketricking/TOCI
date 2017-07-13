@@ -1,6 +1,11 @@
 .header {
 
 }
+.hero {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 214px;
+}
 .logo {
   margin: -58px 0 0 -100px;
   @include position(absolute, 50% 0 0 50%);
