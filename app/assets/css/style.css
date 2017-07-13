@@ -5616,6 +5616,8 @@ label.panel-block {
   position: relative;
   z-index: 1;
   margin-bottom: 214px; }
+  .hero .tothemoon {
+    overflow: visible; }
 
 .logo {
   margin: -58px 0 0 -100px;
@@ -5698,3 +5700,59 @@ footer {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+.svg-container {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto; }
+
+#clouds {
+  display: block; }
+
+.clouds-animation {
+  animation: verticalScroll 3s  ease-in; }
+
+.rocket-animation {
+  -ms-transform-origin: 50% 0;
+      transform-origin: 50% 0;
+  animation: takeOff 3s  ease-in; }
+
+.flame-outer {
+  animation: outerFlame .5s infinite linear; }
+
+.flame-inner {
+  animation: innerFlame .5s infinite linear; }
+
+@keyframes verticalScroll {
+  0% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(500px); } }
+
+@keyframes takeOff {
+  0% {
+    transform: scale(1) translateY(0); }
+  100% {
+    transform: scale(0) translateY(-500px); } }
+
+@keyframes outerFlame {
+  0% {
+    fill: red; }
+  33% {
+    fill: orange; }
+  66% {
+    fill: yellow; }
+  75% {
+    fill: orange; }
+  100% {
+    fill: red; } }
+
+@keyframes innerFlame {
+  0% {
+    fill: orange; }
+  33% {
+    fill: yellow; }
+  66% {
+    fill: orange; }
+  100% {
+    fill: red; } }
