@@ -21,7 +21,7 @@ body, html {
   min-height: 100vh;
   overflow: hidden; }
 
-P {
+p {
   line-height: 1.8rem; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -5629,6 +5629,10 @@ label.panel-block {
 
 .nav ul {
   list-style: none; }
+
+.nav .nav-item img {
+  max-height: 2.5rem;
+  height: 70px; }
 
 .roi {
   background: url(/assets/img/roi.jpg) no-repeat fixed;
