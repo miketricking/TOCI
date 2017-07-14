@@ -5614,8 +5614,7 @@ label.panel-block {
 
 .hero {
   position: relative;
-  z-index: 1;
-  margin-bottom: 214px; }
+  z-index: 1; }
   .hero .tothemoon {
     overflow: visible; }
 
@@ -5627,6 +5626,9 @@ label.panel-block {
 
 .nav ul {
   list-style: none; }
+
+.roi {
+  background: url(/assets/img/roi.jpg); }
 
 footer {
   position: fixed;
