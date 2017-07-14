@@ -13,3 +13,11 @@
   color: #fff;
   text-shadow: none;
 }
+
+// helpers
+
+.invert-text {
+    .title, .subtitle, .content {
+      color: #e4e4e4;
+    }
+}

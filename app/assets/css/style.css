@@ -21,6 +21,9 @@ body, html {
   min-height: 100vh;
   overflow: hidden; }
 
+P {
+  line-height: 1.8rem; }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -5628,7 +5631,8 @@ label.panel-block {
   list-style: none; }
 
 .roi {
-  background: url(/assets/img/roi.jpg); }
+  background: url(/assets/img/roi.jpg) no-repeat fixed;
+  background-size: cover; }
 
 footer {
   position: fixed;
@@ -5663,6 +5667,17 @@ footer {
   background: #333;
   color: #fff;
   text-shadow: none; }
+
+.invert-text .title, .invert-text .subtitle, .invert-text .content {
+  color: #e4e4e4; }
+
+@media only screen and (min-width: 769px) {
+  .section hr {
+    max-width: 820px;
+    margin: 1.5rem auto; }
+  .section .content p {
+    max-width: 800px;
+    margin: auto; } }
 
 @media print {
   * {

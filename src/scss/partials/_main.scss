@@ -2,5 +2,6 @@
 }
 
 .roi {
-  background: url(/assets/img/roi.jpg);
+  background: url(/assets/img/roi.jpg) no-repeat fixed;
+  background-size: cover;
 }
