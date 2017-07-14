@@ -5621,12 +5621,6 @@ label.panel-block {
   .hero .tothemoon {
     overflow: visible; }
 
-.logo {
-  margin: -58px 0 0 -100px;
-  position: absolute;
-  top: 50%;
-  left: 50%; }
-
 .nav ul {
   list-style: none; }
 
@@ -5637,6 +5631,15 @@ label.panel-block {
 .roi {
   background: url(/assets/img/roi.jpg) no-repeat fixed;
   background-size: cover; }
+
+.section {
+  padding: 4rem 1.5rem 5.5rem; }
+  .section .icon {
+    color: #00E6E8; }
+
+.icon.is-large {
+  height: 5rem;
+  width: 5rem; }
 
 footer {
   position: fixed;

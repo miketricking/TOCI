@@ -1,7 +1,14 @@
-.main {
-}
-
 .roi {
   background: url(/assets/img/roi.jpg) no-repeat fixed;
   background-size: cover;
+}
+.section {
+  padding: 4rem 1.5rem 5.5rem;
+  .icon {
+    color: #00E6E8;
+  }
+}
+.icon.is-large {
+  height: 5rem;
+  width: 5rem;
 }
