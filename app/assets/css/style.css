@@ -5632,6 +5632,10 @@ label.panel-block {
   background: url(/assets/img/roi.jpg) no-repeat fixed;
   background-size: cover; }
 
+.faqs article .content p {
+  padding-top: 22px;
+  line-height: 1.3em; }
+
 .section {
   padding: 4rem 1.5rem 5.5rem; }
   .section .icon {
