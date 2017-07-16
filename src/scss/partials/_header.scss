@@ -1,10 +1,27 @@
 .header {
 
 }
-.hero {
+.hero-head.stick {
+  position: fixed;
+  top: 0px!important;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+  background: #00d1b2;
+}
+.hero .is-fullheight {
   position: relative;
   z-index: 1;
   .tothemoon {
     overflow: visible;
+  }
+}
+.hero-head {
+    transition: all 1s ease;
+    position: relative;
+  .nav-item {
+    span {
+      padding-left: 10px;
+    }
   }
 }

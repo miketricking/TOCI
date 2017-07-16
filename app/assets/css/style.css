@@ -5615,11 +5615,25 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
-.hero {
+.hero-head.stick {
+  position: fixed;
+  top: 0px !important;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+  background: #00d1b2; }
+
+.hero .is-fullheight {
   position: relative;
   z-index: 1; }
-  .hero .tothemoon {
+  .hero .is-fullheight .tothemoon {
     overflow: visible; }
+
+.hero-head {
+  transition: all 1s ease;
+  position: relative; }
+  .hero-head .nav-item span {
+    padding-left: 10px; }
 
 .nav ul {
   list-style: none; }
@@ -5634,7 +5648,8 @@ label.panel-block {
 
 .faqs article .content p {
   padding-top: 22px;
-  line-height: 1.3em; }
+  line-height: 1.3em;
+  word-wrap: break-word; }
 
 .section {
   padding: 4rem 1.5rem 5.5rem; }
@@ -5732,7 +5747,9 @@ footer {
 .svg-container {
   width: 80%;
   max-width: 400px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative;
+  right: 12px; }
 
 #clouds {
   display: block;

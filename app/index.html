@@ -18,11 +18,11 @@
   <body>
     <section class="hero is-primary is-fullheight is-bold">
       <!-- Hero header: will stick at the top -->
-      <div class="hero-head">
+      <div id="sticky-nav" class="hero-head">
         <header class="nav">
           <div class="container">
             <div class="nav-left">
-              <a class="nav-item">
+              <a href="#" class="nav-item">
                 <img src="/assets/img/icot-logo.svg" alt="Logo"><span class="logo-text">ICO Token</span>
               </a>
             </div>
@@ -32,14 +32,14 @@
               <span></span>
             </span>
             <div class="nav-right nav-menu">
-              <a class="nav-item is-active">
-                Home
+              <a href="#about" class="nav-item is-active">
+                About
               </a>
-              <a class="nav-item">
-                Examples
+              <a href="#contribute" class="nav-item">
+                Contribute
               </a>
-              <a class="nav-item">
-                Documentation
+              <a href="#faq" class="nav-item">
+                FAQ
               </a>
               <span class="nav-item">
                 <a class="button is-primary is-inverted">
@@ -100,7 +100,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section id="about" class="section">
       <div class="container has-text-centered">
         <img src="/assets/img/icot-logo-invert.svg" class="icon is-large" alt="Logo">
           <h1 class="title">What is a ICO Token?</h1>
@@ -130,33 +130,33 @@
     <nav class="level">
     <div class="level-item has-text-centered">
       <div>
-        <p class="heading">Eth sent</p>
-        <p class="title">0.00!</p>
+        <p class="heading">Eth contributed</p>
+        <p id="eth" class="title">N/A</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
         <p class="heading">ICO Tokens issued</p>
-        <p class="title">50.00</p>
+        <p id="tokens" class="title">N/A</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
         <p class="heading">ICO Tokens remaining</p>
-        <p class="title">9,950.00</p>
+        <p id="total" class="title">N/A</p>
       </div>
     </div>
   </nav>
 </section>
 
-<section class="hero is-medium is-primary invert-text">
+<section id="contribute" class="hero is-medium is-primary invert-text">
   <div class="hero-body">
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column">
           <h1 class="title">How to contribute?</h1>
           <h2 class="subtitle">LAMBOS</h2>
-          <p>If for some reason you're still reading and want to contribute in the ICO Token crowdsale you can find the address on the right. You will be sending me ETH for the worthless ICOT in return. The exchange is 100 ICOT for 1 ETH. There is and only ever will be an inital supply of 25,000 ICOT. I cannot create more because there is no option in the contract (cmd + c, cmd + v) to do so. So you know, maybe think of them as some worthless limited edition tokens yeh? The ICO is open until 31st August or until the 12,500 cap has been reached. I'm only selling half of the tokens because the Ethereum website states this crowdsale code will be completely controlled by the token holders which means there is risk to someone owning over 50% of tokens during it.</p>
+          <p>If for some reason you're still reading and want to contribute in the ICO Token crowdsale you can find the address on the right. You will be sending me ETH for the worthless ICOT in return. The exchange is 1 ETH for 25 ICOT. There is and only ever will be an inital supply of 25,000 ICOT. I cannot create more because there is no option in the contract (cmd + c, cmd + v) to do so. So you know, maybe think of them as some worthless limited edition tokens yeh? The ICO is open until 31st August or until the 12,500 cap has been reached. I'm only selling half of the tokens because the Ethereum website states this crowdsale code will be completely controlled by the token holders which means there is risk to someone owning over 50% of tokens during it.</p>
         </div>
         <div class="column">
           <div class="content has-text-centered">
@@ -172,7 +172,7 @@
   </div>
 </section>
 
-<section class="section faqs">
+<section id="faq" class="section faqs">
   <div class="container has-text-centered">
     <span class="icon is-large">
       <i class="fa fa-question-circle"></i>
@@ -208,7 +208,7 @@
         <article class="tile is-child box">
           <p class="title">Will there be another crowdsale?</p>
              <div class="content">
-               <p>Depends how it the ICO goes. Maybe I'll open it again if I don't get enough for a new laptop. There's a limit to the tokens anyway. I can't ever create any more because there isn't a mintToken fuction in the contract to allow me to, there will always and only ever be 25,000 ICOT.</p>
+               <p>Depends how it the ICO goes. Maybe I'll open it again if I don't get enough for a new laptop. There's a limit to the tokens anyway. I can't ever create any more because there isn't a mintToken fuction in the contract to allow me to. There will always and only ever be 25,000 ICOT.</p>
         </article>
       </div>
     </div>
@@ -216,7 +216,7 @@
       <article class="tile is-child box">
         <p class="title">What happens with the donations?</p>
            <div class="content">
-             <p>The ETH that you send will be used in one of the following:<ol><li>Get a new laptop</li><li>HODL</li><li>Go towards a deposit so I can buy my first home</li></ol>It's as simple as that! So you know, the cause is worthy! Feel free to get as many of those worthless ICO Tokens as you can!<p></p>
+             <p>Depending on how the ICO goes the ETH that you send will be used in one of the following:<ol><li>Get a new laptop</li><li>HODL</li><li>Go towards a deposit so I can buy my first home</li></ol>It's as simple as that! So you know, the cause is worthy! Feel free to get as many of those worthless ICO Tokens as you can!<p></p>
       </article>
     </div>
   </div>
