@@ -5623,10 +5623,10 @@ label.panel-block {
   z-index: 999999;
   background: #00d1b2; }
 
-.hero .is-fullheight {
+.hero.is-fullheight {
   position: relative;
   z-index: 1; }
-  .hero .is-fullheight .tothemoon {
+  .hero.is-fullheight .tothemoon {
     overflow: visible; }
 
 .hero-head {
@@ -5654,7 +5654,7 @@ label.panel-block {
 .section {
   padding: 4rem 1.5rem 5.5rem; }
   .section .icon {
-    color: #00E6E8; }
+    color: #00d1b2; }
 
 .icon.is-large {
   height: 5rem;

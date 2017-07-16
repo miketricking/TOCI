@@ -9,6 +9,9 @@
 	.st3{fill:none;stroke:#00E6E8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st4{fill:#EBEEF0;stroke:#00E6E8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st5{fill:#FFAB00;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st6{fill:#AEBCC4;stroke:#00D1B2;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#00D1B2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:#EBEEF0;stroke:#00D1B2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <g id="molecule_1_">
 	<circle id="label_18_" class="st0" cx="463.9" cy="893.5" r="40"/>
@@ -67,20 +70,20 @@
 			<circle class="st1" cx="50.9" cy="16.3" r="3.9"/>
 			<circle class="st1" cx="11.9" cy="16.3" r="3.9"/>
 			<circle class="st2" cx="11.9" cy="37.8" r="3.9"/>
-			<circle class="st2" cx="31.4" cy="7.3" r="3.9"/>
+			<circle class="st6" cx="31.4" cy="7.3" r="3.9"/>
 			<circle class="st0" cx="31.4" cy="27.1" r="3.9"/>
 			<circle class="st1" cx="31.4" cy="46.9" r="3.9"/>
 			<circle class="st2" cx="50.3" cy="37.8" r="3.9"/>
 		</g>
 		<g id="line_1_">
-			<path class="st3" d="M15.8,18.5l30.3,17.1 M46.9,18.5l-31.1,18 M31.4,12.1v30.7"/>
-			<circle class="st3" cx="50.9" cy="16.3" r="3.9"/>
-			<circle class="st3" cx="11.9" cy="16.3" r="3.9"/>
-			<circle class="st3" cx="11.9" cy="37.8" r="3.9"/>
-			<circle class="st3" cx="31.4" cy="7.3" r="3.9"/>
-			<circle class="st4" cx="31.4" cy="27.1" r="3.9"/>
-			<circle class="st3" cx="31.4" cy="46.9" r="3.9"/>
-			<circle class="st3" cx="50.3" cy="37.8" r="3.9"/>
+			<path class="st7" d="M15.8,18.5l30.3,17.1 M46.9,18.5l-31.1,18 M31.4,12.1v30.7"/>
+			<circle class="st7" cx="50.9" cy="16.3" r="3.9"/>
+			<circle class="st7" cx="11.9" cy="16.3" r="3.9"/>
+			<circle class="st7" cx="11.9" cy="37.8" r="3.9"/>
+			<circle class="st7" cx="31.4" cy="7.3" r="3.9"/>
+			<circle class="st8" cx="31.4" cy="27.1" r="3.9"/>
+			<circle class="st7" cx="31.4" cy="46.9" r="3.9"/>
+			<circle class="st7" cx="50.3" cy="37.8" r="3.9"/>
 		</g>
 	</g>
 </g>
