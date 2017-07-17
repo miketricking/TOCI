@@ -67,4 +67,18 @@
 
   getTotal()
 
+    var burger = document.querySelector('.navbar-burger');
+    var target = burger.dataset.target;
+    var menu = document.getElementById(target);
+
+    function toggleMenu() {
+          burger.classList.toggle('is-active');
+          menu.classList.toggle('is-active');
+    }
+
+    burger.addEventListener('click', toggleMenu);
+
+  $('#navMenu .navbar-item').on('click', toggleMenu);
+
+
 })(jQuery, window, document);

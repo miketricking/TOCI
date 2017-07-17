@@ -7,10 +7,32 @@
       }
     }
   }
-  .nav-item {
-    img {
-      max-height: 2.5rem;
-      height: 70px;
+}
+#sticky-nav {
+    box-shadow: 0 1px 0 hsla(0,0%,100%,.2);
+}
+.navbar {
+  background: rgba(0,0,0,0);
+  .is-hidden-desktop {
+    margin-left: auto;
+    span {
+      padding-left: 0;
     }
+  }
+}
+.navbar-item {
+  img {
+    max-height: 2.5rem;
+    height: 70px;
+  }
+  span {
+    padding-left: 10px;
+  }
+}
+
+.navbar-burger {
+  margin-left: 0;
+  span, &.is-active span {
+    background: #fff;
   }
 }

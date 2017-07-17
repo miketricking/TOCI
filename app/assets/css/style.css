@@ -5632,15 +5632,31 @@ label.panel-block {
 .hero-head {
   transition: all 1s ease;
   position: relative; }
-  .hero-head .nav-item span {
-    padding-left: 10px; }
 
 .nav ul {
   list-style: none; }
 
-.nav .nav-item img {
+#sticky-nav {
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2); }
+
+.navbar {
+  background: transparent; }
+  .navbar .is-hidden-desktop {
+    margin-left: auto; }
+    .navbar .is-hidden-desktop span {
+      padding-left: 0; }
+
+.navbar-item img {
   max-height: 2.5rem;
   height: 70px; }
+
+.navbar-item span {
+  padding-left: 10px; }
+
+.navbar-burger {
+  margin-left: 0; }
+  .navbar-burger span, .navbar-burger.is-active span {
+    background: #fff; }
 
 .roi {
   background: url(/assets/img/roi.jpg) no-repeat fixed;
@@ -5660,12 +5676,8 @@ label.panel-block {
   height: 5rem;
   width: 5rem; }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 0; }
+.footer {
+  padding: 3rem 1.5rem; }
 
 @font-face {
   font-family: 'Font-Name';
@@ -5703,7 +5715,15 @@ footer {
     margin: 1.5rem auto; }
   .section .content p {
     max-width: 800px;
-    margin: auto; } }
+    margin: auto; }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1; }
+  .faqs {
+    margin-bottom: 212px; } }
 
 @media print {
   * {
