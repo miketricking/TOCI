@@ -5648,7 +5648,8 @@ label.panel-block {
 
 .navbar-item img {
   max-height: 2.5rem;
-  height: 70px; }
+  height: 70px;
+  width: 48px; }
 
 .navbar-item span {
   padding-left: 10px; }
@@ -5673,6 +5674,7 @@ label.panel-block {
     color: #00d1b2; }
 
 .icon.is-large {
+  margin: auto;
   height: 5rem;
   width: 5rem; }
 

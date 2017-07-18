@@ -41,16 +41,15 @@
       var total;
       var issued;
       var eth;
-      var url = "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0xb9955B00FB89456B1a0364CD392e81cD37f6bCe8&address=0xA25e2De7B76435BED3e3173e82F18a7C76af8c35&tag=latest";
+      var url = "https://api.etherscan.io/api?module=account&action=tokenbalance&contractaddress=0x4e187439561a22ed4ebf70b0db81617c6fcb97c9&address=0xC566a7aa6559bcAb2453afDBA8BFD6327d26Fe60&tag=latest";
       return $.ajax(url, {
           cache: false,
           dataType: "json"
       }).then(function (data) {
         total = parseInt(data.result)
-        total = (total / 1000000000000000000) - 12500;
-        total = total.toFixed(4);
-        issued = (12500 - total).toFixed(4);
-        eth = (issued / 25).toFixed(4);
+        total = (total / 1000000000000000000).toFixed(2);
+        issued = (25000 - total).toFixed(2);
+        eth = (issued / 25).toFixed(2);
         document.getElementById("eth").innerHTML = eth
         document.getElementById("tokens").innerHTML = issued
         document.getElementById("total").innerHTML = total
